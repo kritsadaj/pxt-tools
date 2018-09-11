@@ -1,7 +1,7 @@
 {
-    "name": "tools",
+    "name": "Kritsada",
     "version": "0.0.1",
-    "description": "這是專為測試用的micro:bit積木",
+    "description": "ตัวอย่างเบื้องต้นใช้งาน micro:bit",
     "license": "MIT",
     "dependencies": {
         "core": "*"
