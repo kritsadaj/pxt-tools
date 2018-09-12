@@ -1,6 +1,6 @@
 # tools
 
-這是專為測試用的micro:bit積木
+เป็นการสร้างไฟล์ Package ขนาดเล็กเพื่อทดสอบการทำงานของ micro:bit
 
 ## License
 
