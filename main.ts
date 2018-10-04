@@ -1,4 +1,4 @@
-//% weight=0 color=#ff0000 icon="\uf2a2" block="Encoder"
+//% weight=0 color=#ff00ff icon="\uf2a2" block="Encoder"
 namespace Encoder {
     /**
     * คำนวณพื้นที่สี่เหลี่ยม，มีการคืนค่า
