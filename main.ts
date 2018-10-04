@@ -17,18 +17,17 @@ namespace Encoder {
         basic.showNumber(length*width)
     }
     /**
-    * 
+    *  ทดสอบ Encoder
     */
-    //% blockId="encoderStart" block="Encoder %Value"
+    //% blockId="encoder" block="Encoder %Value"
     //% blockGap=2 weight=1
-    export function encoderStart(Value: number): void {
-        let Cnt = 0
-        pins.setEvents(DigitalPin.P8, PinEventType.Edge)
-        control.onEvent(EventBusSource.MICROBIT_ID_IO_P8, EventBusValue.MICROBIT_PIN_EVT_FALL, () => {
-        Cnt += 1
-    })   
-        control.onEvent(EventBusSource.MICROBIT_ID_IO_P8, EventBusValue.MICROBIT_PIN_EVT_RISE, () => {
-        Cnt += 1
-    })  
-    }
+    export function Encoder(Cnt: number): void {
+        let x=0
+        while(x<Cnt){
+            while(pins.digitalReadPin(DigitalPin.P8==0){}
+            x +=1
+            while(pins.digitalReadPin(DigitalPin.P8==1){}
+            x +=1
+        }
+		}
 }
