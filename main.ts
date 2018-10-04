@@ -21,7 +21,7 @@ namespace Encoder {
     */
     //% blockId="encoder" block="Encoder %Cnt"
     //% blockGap=2 weight=1
-    export function Encoder2(Cnt: number): void {
+    export function encoder(Cnt: number): void {
         let x=0
         while(x<Cnt){
             while(pins.digitalReadPin(DigitalPin.P8==0){}
