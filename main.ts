@@ -19,7 +19,7 @@ namespace Encoder {
     /**
     *  ทดสอบ Encoder
     */
-    //% blockId="encoder" block="Encoder %Value"
+    //% blockId="encoder" block="Encoder %Cnt"
     //% blockGap=2 weight=1
     export function Encoder2(Cnt: number): void {
         let x=0
