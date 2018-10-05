@@ -1,4 +1,4 @@
-//% weight=1 color=#ffcc00 icon="\uf069" block="Encoder"
+//% weight=1 color=#66cc00 icon="\uf069" block="Encoder"
 namespace encoder {
     /**
     *  ทดสอบ Encoder
