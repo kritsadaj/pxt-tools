@@ -1,7 +1,7 @@
 {
     "name": "Kritsada",
     "version": "0.0.1",
-    "description": "ตัวอย่างเบื้องต้นใช้งาน micro:bit",
+    "description": " Function for Encoder",
     "license": "MIT",
     "dependencies": {
         "core": "*"
